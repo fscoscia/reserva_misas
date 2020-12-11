@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "~=2.2.12"
+psycopg2 = "*"
+unaccent = {git = "https://github.com/angoybu/django-postgres-unaccent.git"}
+djangorestframework = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
